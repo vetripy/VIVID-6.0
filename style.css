@@ -300,6 +300,8 @@ h2{
   min-height: fit-content;
 }
 
+
+
 /* .nav-links, .logo.logo-box, nav .nav-content{
   border: 1px solid red;
 
@@ -310,6 +312,40 @@ h2{
 .ham{
   width: 1.9rem;
   background: hsl(0 0% 100% / 0.5);
+}
+.blink {
+  animation: blinker 1.8s linear infinite;
+  font-size: 2rem;
+  font-weight:500;
+  font-family: 'PT Sans', sans-serif;
+  margin-bottom:2rem;
+  background-color: black;
+  padding: 10px;
+  border-radius: 5px;
+}
+@keyframes blinker {
+  50% {
+      opacity: 0;
+  }
+}
+.theme{
+  color:#0d4ba0;
+}
+.s{
+  text-decoration: line-through;
+}
+
+.prize-div{
+  display: flex;
+  justify-content: space-evenly;
+  gap:0.2rem;
+
+}
+.prize-div > div{
+  border: 1px solid #dcdcdc;
+  font-size: 0.9rem;
+  padding: 1rem;
+  border-radius: 5px;
 }
 @media screen and (max-width: 890px) {
   .nav-links{
