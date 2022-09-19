@@ -355,6 +355,7 @@ h2{
 }
 .prize-amt{
   font-size: 2rem;
+  text-align: justify;
 }
 .s{
   text-decoration: line-through;
