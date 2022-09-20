@@ -35,9 +35,10 @@ nav{
   background-color: white;
   z-index: 99;
   justify-content: space-between;
-  align-items: baseline;
+  align-items: center;
   top:0px;
   box-shadow: 0 5px 10px rgb(0 0 0 / 10%);
+
 }
 .logo-container{
   margin-left:5rem;
@@ -50,12 +51,13 @@ nav{
 .nav-links{
   gap:1rem;
   list-style: none;
+  margin-top: 1rem;
 
 }
 .nav-links li a{
   text-decoration: none;
   color: #0E2431;
-  font-size: 18px;
+  font-size: 1.4rem;
   font-weight: 500;
   padding: 10px 4px;
   transition: all 0.1s ease;
@@ -80,6 +82,7 @@ h2{
   color: #0d4ba0;
 }
 .text{
+  margin-top:3.5rem;
   text-align: justify;
   padding-left: 2rem;
   box-shadow: -5px 0 10px rgba(0, 0, 0, 0.1);
